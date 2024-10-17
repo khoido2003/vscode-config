@@ -1,0 +1,85 @@
+{
+  "files.autoSave": "onFocusChange",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Vim Dark Hard",
+  "editor.wordWrap": "on",
+  "git.ignoreMissingGitWarning": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "golang.go",
+  "editor.accessibilitySupport": "off",
+  "git.openRepositoryInParentFolders": "always",
+  "eslint.run": "onSave",
+  "editor.tabSize": 2,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[jade]": {
+    "editor.defaultFormatter": "ducfilan.pug-formatter"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "tabnine.experimentalAutoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "files.watcherExclude": {
+    "**/.trunk/*actions/": true,
+    "**/.trunk/*logs/": true,
+    "**/.trunk/*notifications/": true,
+    "**/.trunk/*out/": true,
+    "**/.trunk/*plugins/": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "editor.minimap.autohide": true,
+  "workbench.activityBar.location": "top",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.preferredDarkColorTheme": "Monokai",
+  "workbench.preferredHighContrastColorTheme": "Monokai",
+  "editor.formatOnPaste": true,
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreview": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "color-highlight.markRuler": false,
+  "explorer.openEditors.visible": 1,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.layoutControl.type": "menu",
+  // "window.title": " ",
+  "workbench.editor.showTabs": "none",
+  "workbench.commandPalette.history": 0,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "explorer.autoReveal": false  // Disable auto-revealing files in the explorer
+}
