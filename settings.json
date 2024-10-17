@@ -1,20 +1,21 @@
 {
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "editor.wordWrap": "on",
   "git.ignoreMissingGitWarning": true,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.defaultFormatter": "golang.go",
   "editor.accessibilitySupport": "off",
-  "git.openRepositoryInParentFolders": "always",
+  "git.openRepositoryInParentFolders": "never",
   "eslint.run": "onSave",
   "editor.tabSize": 2,
 
-  "emmet.includeLanguages": {
+  "emmet.includeLanguages": { 
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -22,10 +23,7 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
-  "[jade]": {
-    "editor.defaultFormatter": "ducfilan.pug-formatter"
-  },
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "tabnine.experimentalAutoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "files.exclude": {
@@ -40,46 +38,73 @@
     "**/.trunk/*logs/": true,
     "**/.trunk/*notifications/": true,
     "**/.trunk/*out/": true,
-    "**/.trunk/*plugins/": true
+    "**/.trunk/*plugins/": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.trunk/**": true
   },
+  
   "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
+  "explorer.openEditors.visible": 1,
+  "explorer.autoReveal": false,
+  
+  // "[prisma]": {
+  //   "editor.defaultFormatter": "Prisma.prisma"
+  // },
+  
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "editor.minimap.autohide": true,
-  "workbench.activityBar.location": "top",
-  "breadcrumbs.enabled": false,
-  "editor.stickyScroll.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "editor.minimap.enabled": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.startupEditor": "none",
   "go.toolsManagement.autoUpdate": true,
-  "workbench.preferredDarkColorTheme": "Monokai",
-  "workbench.preferredHighContrastColorTheme": "Monokai",
-  "editor.formatOnPaste": true,
-  "window.zoomLevel": 1,
-  "workbench.editor.enablePreview": false,
-  "extensions.ignoreRecommendations": true,
-  "workbench.sideBar.location": "right",
-  "workbench.statusBar.visible": false,
+    
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": true,
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "color-highlight.markRuler": false,
-  "explorer.openEditors.visible": 1,
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.layoutControl.type": "menu",
+  "editor.quickSuggestions": {
+    // Disable quick suggestions
+  }, 
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.codeLens": false, 
+  "editor.renderWhitespace": "none", 
+  "editor.renderControlCharacters": false,
+  
+  
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+  "workbench.preferredHighContrastColorTheme": "Gruvbox Dark Hard",
+  
+  
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
   // "window.title": " ",
+
+  "workbench.layoutControl.type": "menu",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "none",
   "workbench.commandPalette.history": 0,
   "workbench.editor.editorActionsLocation": "hidden",
-  "explorer.autoReveal": false  // Disable auto-revealing files in the explorer
+  "workbench.editor.enablePreviewFromQuickOpen": false, 
+
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.scrollback": 1000, 
+  "breadcrumbs.enabled": false,
+  "color-highlight.markRuler": false,
+  "search.followSymlinks": false,  
+  "extensions.ignoreRecommendations": true, 
+  "extensions.autoUpdate": false, 
+
 }
